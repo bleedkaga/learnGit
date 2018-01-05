@@ -1,0 +1,100 @@
+{
+        label: '数据统计',
+        iconclass: 'iconfont icon-shujutongji'
+      },{
+          label: '停车管理',
+          iconclass: 'iconfont icon-tingchechangguanli',
+
+          children: [
+            {
+              label: '车位设置',
+              url: '/parking-set'
+            },
+            {
+              label: '收费规则设置',
+              url: '/charging'
+            },
+            {
+              label: '充值活动设置',
+              url: ''
+            },
+            {
+              label: '发票管理',
+              url:''
+            },
+            {
+              label: '固定车辆设置',
+              url:''
+            },
+            {
+              label: '综合查询',
+              url:''
+            },
+            {
+              label: '基础设置',
+              url:''
+            }
+          ]
+        },
+        {
+          label: '设备管理',
+          iconclass: 'iconfont icon-shebei',
+          children: [
+            {
+              label: '车位设置',
+              url:'',
+            },
+            {
+              label: '收费规则设置',
+              url:''
+            },
+            {
+              label: '充值活动设置',
+              url:''
+            },
+            {
+              label: '发票管理',
+              url:''
+            },
+            {
+              label: '固定车辆设置',
+              url:''
+            },
+            {
+              label: '综合查询',
+              url:''
+            },
+            {
+              label: '基础设置',
+              url:''
+            }
+          ]
+        },
+        {
+          label: '权限管理',
+          iconclass: 'iconfont icon-permission',
+          children: [
+            {
+              label: '角色管理',
+              url:''
+            },
+            {
+              label: '管理员账号管理',
+              url:''
+            }]
+        },
+        {
+          label: '消息管理',
+          iconclass: 'iconfont icon-xiaoxi',
+          children: []
+        },
+        {
+          label: '用户管理',
+          iconclass: 'iconfont icon-iconfont',
+          children: []
+        },
+        {
+          label: '操作日志',
+          iconclass: 'iconfont icon-rizhi',
+          children: []
+        }
